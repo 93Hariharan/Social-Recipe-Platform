@@ -1,0 +1,42 @@
+.comment-section {
+    padding: 10px;
+  }
+  
+  .comment-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .comment-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .send-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .send-button:hover {
+    transform: scale(1.2);
+  }
+  
+  .comment-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .comment-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  

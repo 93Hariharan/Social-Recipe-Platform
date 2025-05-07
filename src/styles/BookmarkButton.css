@@ -1,0 +1,20 @@
+.bookmark-container {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.bookmark-container:hover {
+  transform: scale(1.2);
+}
+
+.bookmark-icon {
+  font-size: 1.4rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.bookmarked {
+  color: #0077ff; /* blue when active */
+}
