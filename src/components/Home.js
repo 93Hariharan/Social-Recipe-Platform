@@ -1,12 +1,12 @@
 // src/components/Home.js
 
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import SearchByTagsIngredients from "./SearchByTagsIngredients";
-import images from "../assets/images"; // Make sure this is an array of image objects with `tags` or `ingredients`
 import ImageCard from "./ImageCard";
 import "../styles/home.css";
-
+import { ImageContext } from '../context/ImageContext';
 const Home = () => {
+  const { images } = useContext(ImageContext);
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = (query) => {

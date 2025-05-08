@@ -4,21 +4,21 @@ const images = [
     id: 1,
     title: " Biryani",
     url: require("./img1.jpg"),
-    tags: ['nature', 'sunset'],
+    tags: ['nature'],
     ingredients: ['trees', 'sky']
   },
   {
     id: 2,
     title: "vegetable full meals",
     url: require("./img2.jpg"),
-    tags: ['food'],
+    tags: ['tomato'],
     ingredients: ['tomato', 'cheese'] },
 
   {
     id: 3,
     title: "vegetable rice",
     url: require("./img3.jpg"),
-    tags: ['nature', 'sunset'],
+    tags: ['sunset'],
     ingredients: ['trees', 'sky']
   },
   {
@@ -31,7 +31,7 @@ const images = [
       id: 1,
       title: " Biryani",
       url: require("./img1.jpg"),
-      tags: ['nature', 'sunset'],
+      tags: ['nature'],
       ingredients: ['trees', 'sky']
     },
     {
@@ -45,14 +45,14 @@ const images = [
       id: 3,
       title: "vegetable rice",
       url: require("./img3.jpg"),
-      tags: ['nature', 'sunset'],
+      tags: ['sunset'],
       ingredients: ['trees', 'sky']
     },
     {
       id: 4, 
        title: "Samosa",
       url: require("./img4.jpg"),
-      tags: ['food'],
+      tags: ['tomato'],
       ingredients: ['tomato', 'cheese'] },
   ];
   
